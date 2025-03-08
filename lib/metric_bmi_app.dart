@@ -11,7 +11,7 @@ class BMIcalc_metric extends StatefulWidget{
 class _BMI extends State<BMIcalc_metric>{
   final TextEditingController kg_control=TextEditingController();
   final TextEditingController cm_control=TextEditingController();
-  final Age_controller =TextEditingController();
+  final TextEditingController Age_controller =TextEditingController();
   double bmiresult=0.0;
   Color color_result =Colors.transparent;
   void findbmi( {required String kg_control,required String cm_control}){
