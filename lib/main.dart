@@ -21,7 +21,7 @@ class myApp extends StatelessWidget{
     appBar: AppBar(
       backgroundColor: Color.fromARGB(255, 117, 102, 159),
 
-      title: Text('Welcome to the BMI calculator'),
+      title: Text('Welcome to the BMI calculator',color: Colors.white),
       centerTitle: true,
     ),
     body:Center(child: Column(
